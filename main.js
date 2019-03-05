@@ -1,13 +1,7 @@
-// syntax:
-// function square(number) {
-//     return number * number;
-//   }
-
 function isEven(number) {
     return !number%2;
 }
 
-var fact;
 function factorial(number) {
 
     if(number === 0)
