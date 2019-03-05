@@ -9,16 +9,10 @@ function isEven(number) {
 
 var fact;
 function factorial(number) {
-    fact = number;
-    if(number === 0) {
-        fact = 1;
-        return fact;
-    }
-    // while(number>1) {
-    //     number--;
-    //     fact *= number;
-    // }
-    // return fact;
+
+    if(number === 0)
+        return 1;
+ 
     for(var i=number-1; i>0; i--) {
         number *= i;
         console.log("iteracion:"+ i);
