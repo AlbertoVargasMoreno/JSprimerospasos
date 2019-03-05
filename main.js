@@ -15,8 +15,6 @@ function factorial(number) {
  
     for(var i=number-1; i>0; i--) {
         number *= i;
-        console.log("iteracion:"+ i);
-        console.log("number:"+ number);
     }
     return number;
 }
