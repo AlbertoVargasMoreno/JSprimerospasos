@@ -14,15 +14,9 @@ function factorial(number) {
         fact = 1;
         return fact;
     }
-    // while(number>1) {
-    //     number--;
-    //     fact *= number;
-    // }
-    // return fact;
-    for(var i=number-1; i>0; i--) {
-        number *= i;
-        console.log("iteracion:"+ i);
-        console.log("number:"+ number);
+    while(number>1) {
+        number--;
+        fact *= number;
     }
-    return number;
+    return fact;
 }
